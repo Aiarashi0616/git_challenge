@@ -1,0 +1,24 @@
+m0105@M0105noMacBook-Air htdocs % mkdir git_challenge
+m0105@M0105noMacBook-Air htdocs % cd git_challenge
+m0105@M0105noMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Applications/MAMP/htdocs/git_challenge/.git/
+m0105@M0105noMacBook-Air git_challenge % touch hello_world.txt
+m0105@M0105noMacBook-Air git_challenge % git add .
+m0105@M0105noMacBook-Air git_challenge % echo "Hello World！" >> hello_world.txt
+m0105@M0105noMacBook-Air git_challenge % git add hello_world.txt
+m0105@M0105noMacBook-Air git_challenge %  git commit -m "hello_world.txtを追加"
+[main (root-commit) 866a199] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+m0105@M0105noMacBook-Air git_challenge % git status
+On branch main
+nothing to commit, working tree clean
+m0105@M0105noMacBook-Air git_challenge % git add .
+m0105@M0105noMacBook-Air git_challenge % echo "こんにちは、世界！" >> hello_world.txt
+m0105@M0105noMacBook-Air git_challenge % git add hello_world.txt
+m0105@M0105noMacBook-Air git_challenge % git commit -m "日本語訳を追記"  
+[main d5af512] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+m0105@M0105noMacBook-Air git_challenge % git log --oneline
+d5af512 (HEAD -> main) 日本語訳を追記
+866a199 hello_world.txtを追加

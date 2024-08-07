@@ -9,6 +9,7 @@ m0105@M0105noMacBook-Air htdocs % echo "こんにちは、世界！" >> hello_wo
 m0105@M0105noMacBook-Air htdocs % git add hello_world.txt
 m0105@M0105noMacBook-Air htdocs % git commit -m "こんにちは、世界！を実装"
 m0105@M0105noMacBook-Air htdocs %　git log -p hello_world.txt
-m0105@M0105noMacBook-Air htdocs % git log --oneline -- hello_world.txt
+m0105@M0105noMacBook-Air htdocs % git log --oneline
+
 
 # git-basic-kadai
